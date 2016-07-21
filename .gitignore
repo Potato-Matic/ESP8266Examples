@@ -1,3 +1,8 @@
+## Repo-Specific rules
+#config.h is often used in examples to hold setting which may be sensitive, such as wifi passwords or API keys
+config.h
+
+## Standard C++ gitignore
 # Compiled Object files
 *.slo
 *.lo
